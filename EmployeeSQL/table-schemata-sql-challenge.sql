@@ -23,7 +23,7 @@ CREATE TABLE Employees(
 
 
 -- Composite keys were created in Dept_emp and Dept_manager to uniquely 
---identify rows in Dept_emp and Dept_manager tables
+--identify rows in these tables
 CREATE TABLE Dept_emp(
 	emp_no INTEGER NOT NULL,
 	dept_no VARCHAR(30) NOT NULL,
